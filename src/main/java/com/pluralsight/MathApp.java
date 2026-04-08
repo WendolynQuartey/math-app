@@ -27,5 +27,15 @@ public class MathApp {
         // Question 6:
         double numVal = -3.8;
         System.out.println("The absolute value of this number is " + Math.abs(numVal));
+
+        // Question 7:
+        System.out.println("A random number between 0 and 1 is "+ Math.random());
+
+        // Question 8:
+        int days = 24;
+        int minutes = 24*60;
+        int milliseconds = minutes * 60000;
+        System.out.print("There are " + minutes + " minutes in " + days + " days.");
+        System.out.print(" There are also " + milliseconds + " milliseconds in " + days + " days.");
     }
 }
