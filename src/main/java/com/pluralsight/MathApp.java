@@ -23,7 +23,8 @@ public class MathApp {
         System.out.println(Math.sqrt(num));
 
         // Question 5:
-
+        double distance = Math.sqrt(Math.pow((85-5), 2) + Math.pow((50-10), 2));
+        System.out.println("The distance between (5,10) and (85,50) is " + distance);
         // Question 6:
         double numVal = -3.8;
         System.out.println("The absolute value of this number is " + Math.abs(numVal));
